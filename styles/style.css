@@ -1,0 +1,82 @@
+p {
+    color: rgba(255, 123, 0, 0.705);
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+}
+
+html {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #2E4053;
+
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #2E4053;
+}
+
+
+li,a {
+    font-size: 30px;
+}
+
+body {
+    /* The image used */
+    background-image: url("../images/bg.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img1 {
+    position:absolute;
+    top:50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+}
+
+#img2 {
+    position:absolute;
+    top:50%;
+    left:75%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+}
+
+#pop1{
+    display:inline;
+    font-size: 40px;
+    transform: translate(70%,50%);
+}
+#pop2{
+    display:inline;
+    font-size: 40px;
+    transform: translate(30%,50%);
+}
+.center{
+    display:flex;
+    justify-content: space-around;
+}
+
+.mt-100 {
+    margin-top: 400px;
+}
+
+/* .center-text{
+    text-align: center;
+} */
